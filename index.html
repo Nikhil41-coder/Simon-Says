@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <header>
+            <h1>Simon Says</h1>
+            <h2 id="level-title">Press 'Start' to begin</h2>
+        </header>
+
+        <div class="score-board">
+            <span id="highest-score">Best Score: 0</span>
+        </div>
+        <div class="btn-container">
+            <div class="line-one">
+                <div class="btn color-btn red" type="button" id="red"></div>
+                <div class="btn color-btn yellow" type="button" id="yellow"></div>
+            </div>
+            <div class="line-two">
+                <div class="btn color-btn green" type="button" id="green"></div>
+                <div class="btn color-btn purple" type="button" id="purple"></div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="start-btn" class="action-btn">Start Game</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
