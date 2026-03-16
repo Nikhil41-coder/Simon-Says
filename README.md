@@ -20,16 +20,6 @@ The challenge is simple:
 
 ---
 
-## 🎥 Game Preview
-
-<div align="center">
-
-<img src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" width="500"/>
-
-</div>
-
----
-
 ## ✨ Features
 
 - 🎯 Interactive color buttons  
